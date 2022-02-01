@@ -20,7 +20,8 @@ div {
 .exp-header  {
   text-align: center;
   text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0,0.3)
+  border-top: 5px solid #fffff6;
+  border-bottom: 5px solid #fffff6;
+  background-color: rgba(0,0,0,0.6);
+  color: #fffff6;
 }
