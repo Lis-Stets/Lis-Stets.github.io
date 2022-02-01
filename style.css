@@ -1,8 +1,20 @@
 Body {
-  background-color:#444444;
-  Color: #dddddd;
+  background-Image:url("https://i.pinimg.com/originals/0e/71/b0/0e71b047ed32bec3b707aec10ad7ba33.jpg");
+  Color: black;
   font-family: arial, helvetica, sans-serif;
   margin:10% 20%;
+}
+
+div {
+  Padding-left:10px;
+  background-color: #D8BFD8;
+  border-top: 5px solid #d8bfd8;
+  border-bottom: 5px solid #d8bfd8;
+}
+
+.exp-intro {
+  Padding-left:10px;
+  background-color: #D8BFD8
 }
 
 .exp-header  {
@@ -10,5 +22,5 @@ Body {
   text-transform: uppercase;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0,0.1)
+  background-color: rgba(0,0,0,0.3)
 }
