@@ -1,7 +1,7 @@
 Body {
   background-Image:url("https://i.pinimg.com/originals/0e/71/b0/0e71b047ed32bec3b707aec10ad7ba33.jpg");
   Color: black;
-  font-family: arial, helvetica, sans-serif;
+  font-family: Garamond, Georgia, serif;
   margin:10% 20%;
 }
 .exp-vangogh{
@@ -24,8 +24,8 @@ Body {
 
 .exp-summary {
   text-align: center;
-  Padding-left:10px;
-  Padding-right:10px;
+  Padding-left:20px;
+  Padding-right:20px;
   background-color: #91bb81;
   border-Left: 2.5px solid hsl(116, 31%, 48%);
   border-Right: 2.5px solid hsl(116, 31%, 48%);
@@ -36,8 +36,8 @@ Body {
 }
 
 div {
-  Padding-left:10px;
-  Padding-right:10px;
+  Padding-left:20px;
+  Padding-right:20px;
   background-color: #91bb81;
   border-top: 2.5px solid hsl(116, 31%, 48%);
   border-bottom: 2.5px solid hsl(116, 31%, 48%);
