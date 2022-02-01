@@ -4,24 +4,52 @@ Body {
   font-family: arial, helvetica, sans-serif;
   margin:10% 20%;
 }
+.exp-vangogh{
+  background-Image:url("https://cdn.wallpapersafari.com/90/27/Dzn3JZ.jpg");
+  padding-top:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+  margin-bottom:10px;
+}
+
+.exp-name {
+  text-align: Left;
+  border-top: 2.5px solid #91bb81;
+  border-bottom: 1px solid #91bb81;
+  background-color: rgba(0.6,0.6,0.6,.68);
+  color: #fefff7;
+}
+
+.exp-summary {
+  text-align: center;
+  Padding-left:10px;
+  Padding-right:10px;
+  background-color: #91bb81;
+  border-Left: 2.5px solid hsl(116, 31%, 48%);
+  border-Right: 2.5px solid hsl(116, 31%, 48%);
+}
+
+.exp-quote {
+  font-style: italic;
+}
 
 div {
   Padding-left:10px;
-  background-color: #D8BFD8;
-  border-top: 5px solid #d8bfd8;
-  border-bottom: 5px solid #d8bfd8;
-}
-
-.exp-intro {
-  Padding-left:10px;
-  background-color: #D8BFD8
+  Padding-right:10px;
+  background-color: #91bb81;
+  border-top: 2.5px solid hsl(116, 31%, 48%);
+  border-bottom: 2.5px solid hsl(116, 31%, 48%);
+  border-Left: 2.5px solid hsl(116, 31%, 48%);
+  border-Right: 2.5px solid hsl(116, 31%, 48%);
 }
 
 .exp-header  {
   text-align: center;
   text-transform: uppercase;
-  border-top: 5px solid #fffff6;
-  border-bottom: 5px solid #fffff6;
-  background-color: rgba(0,0,0,0.6);
-  color: #fffff6;
+  border-top: 2.5px solid #f4f9c9;
+  border-bottom: 2.5px solid #f4f9c9;
+  border-Left: 2.5px solid #f4f9c9;
+  border-Right: 2.5px solid #f4f9c9;
+  background-color: rgba(0.6,0.6,0.6,.68);
+  color: #fefff7;
 }
