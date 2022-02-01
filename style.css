@@ -14,10 +14,12 @@ Body {
 
 .exp-name {
   text-align: Left;
-  border-top: 2.5px solid #91bb81;
-  border-bottom: 1px solid #91bb81;
+  border-top: 3.5px solid #f4f9c9;
+  border-bottom: 3.5px solid #f4f9c9;
+  border-Left: 3.5px solid #f4f9c9;
+  border-Right: 3.5px solid #f4f9c9;
   background-color: rgba(0.6,0.6,0.6,.68);
-  color: #fefff7;
+  color: #ffffeb;
 }
 
 .exp-summary {
@@ -46,10 +48,10 @@ div {
 .exp-header  {
   text-align: center;
   text-transform: uppercase;
-  border-top: 2.5px solid #f4f9c9;
-  border-bottom: 2.5px solid #f4f9c9;
-  border-Left: 2.5px solid #f4f9c9;
-  border-Right: 2.5px solid #f4f9c9;
+  border-top: 4.5px solid #f4f9c9;
+  border-bottom: 4.5px solid #f4f9c9;
+  border-Left: 4.5px solid #f4f9c9;
+  border-Right: 4.5px solid #f4f9c9;
   background-color: rgba(0.6,0.6,0.6,.68);
-  color: #fefff7;
+  color: #ffffeb;
 }
