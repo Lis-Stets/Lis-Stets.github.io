@@ -1,8 +1,8 @@
 Body {
-  background-Image:url("https://i.pinimg.com/originals/0e/71/b0/0e71b047ed32bec3b707aec10ad7ba33.jpg");
+  background-color: rgb(248, 255, 247);
   Color: black;
   font-family: Garamond, Georgia, serif;
-  margin:5% 7.5% 7.5%;
+  margin:5% 10% 10%;
 }
 .exp-vangogh{
   background-Image:url("https://cdn.wallpapersafari.com/90/27/Dzn3JZ.jpg");
@@ -15,11 +15,11 @@ Body {
 
 .exp-name {
   text-align: Left;
-  border-top: 3.5px solid #f4f9c9;
-  border-bottom: 3.5px solid #f4f9c9;
-  border-Left: 3.5px solid #f4f9c9;
-  border-Right: 3.5px solid #f4f9c9;
-  background-color: rgba(0.6,0.6,0.6,.68);
+  border-top: 35px, rgba(.8,.8,.8,.75);
+  border-bottom: 3.5px, rgba(.8,.8,.8,.75);
+  border-Left: 3.5px rgba(.8,.8,.8,.75);
+  border-Right: 3.5px rgba(.8,.8,.8,.75);
+  background-color: rgba(.8,.8,.8,.75);
   color: #ffffeb;
 }
 
@@ -37,13 +37,15 @@ Body {
 }
 
 div {
+  Padding-top:5px;
+  Padding-botom:5px;
   Padding-left:20px;
   Padding-right:20px;
-  background-color: rgba(177, 217, 200, .86);
-  border-top: 2.5px solid hsl(116, 31%, 48%);
-  border-bottom: 2.5px solid hsl(116, 31%, 48%);
-  border-Left: 2.5px solid hsl(116, 31%, 48%);
-  border-Right: 2.5px solid hsl(116, 31%, 48%);
+  background-color: rgba(177, 217, 200, .95);
+  border-top: 2.5px solid rgba(177, 217, 200, .5);
+  border-bottom: 2.5px solid rgba(177, 217, 200, .65);
+  border-Left: 2.5px solid hsl(116, 31%, 48%)
+  border-Right: 2.5px solid hsl(116, 31%, 48%)
 }
 
 .exp-header  {
