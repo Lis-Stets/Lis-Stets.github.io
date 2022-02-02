@@ -1,12 +1,16 @@
 Body {
-  background-color: rgb(248, 255, 247);
+  background-color: rgba(177, 217, 190, .30);
   Color: black;
   font-family: Garamond, Georgia, serif;
   margin:5% 10% 10%;
 }
 .exp-vangogh{
   background-Image:url("https://cdn.wallpapersafari.com/90/27/Dzn3JZ.jpg");
-  opacity: 99%;
+  opacity: 97%;
+  border-top: 4.5px solid rgba(.8,.8,.8,.75);
+  border-bottom: 4.5px solid rgba(.8,.8,.8,.75);
+  border-Left: 4.5px solid rgba(.8,.8,.8,.75);
+  border-Right: 4.5px solid rgba(.8,.8,.8,.75);
   padding-top:20px;
   padding-right:20px;
   padding-bottom:20px;
@@ -15,10 +19,10 @@ Body {
 
 .exp-name {
   text-align: Left;
-  border-top: 35px, rgba(.8,.8,.8,.75);
-  border-bottom: 3.5px, rgba(.8,.8,.8,.75);
-  border-Left: 3.5px rgba(.8,.8,.8,.75);
-  border-Right: 3.5px rgba(.8,.8,.8,.75);
+  border-top: 4.5px solid rgba(.8,.8,.8,.75);
+  border-bottom: 4.5px solid rgba(.8,.8,.8,.75);
+  border-Left: 4.5px solid rgba(.8,.8,.8,.75);
+  border-Right: 4.5px solid rgba(.8,.8,.8,.75);
   background-color: rgba(.8,.8,.8,.75);
   color: #ffffeb;
 }
@@ -38,23 +42,26 @@ Body {
 
 div {
   Padding-top:5px;
-  Padding-botom:5px;
+  Padding-bottom:5px;
   Padding-left:20px;
   Padding-right:20px;
-  background-color: rgba(177, 217, 200, .95);
-  border-top: 2.5px solid rgba(177, 217, 200, .5);
-  border-bottom: 2.5px solid rgba(177, 217, 200, .65);
-  border-Left: 2.5px solid hsl(116, 31%, 48%)
-  border-Right: 2.5px solid hsl(116, 31%, 48%)
+  background-color: rgba(177, 217, 209, .91);
+  border-bottom: 3px solid rgba(.8,.8,.8,.75);
+  border-Left: 4.5px solid rgba(.8,.8,.8,.75);
+  border-Right: 4.5px solid rgba(.8,.8,.8,.75);
 }
 
 .exp-header  {
   text-align: center;
   text-transform: uppercase;
-  border-top: 4.5px solid #f4f9c9;
-  border-bottom: 4.5px solid #f4f9c9;
-  border-Left: 4.5px solid #f4f9c9;
-  border-Right: 4.5px solid #f4f9c9;
+  border-top: 4.5px solid rgba(.8,.8,.8,.75);
+  border-bottom: 4.5px solid rgba(.8,.8,.8,.75);
+  border-Left: 4.5px solid rgba(.8,.8,.8,.75);
+  border-Right: 4.5px solid rgba(.8,.8,.8,.75);
   background-color: rgba(0.6,0.6,0.6,.68);
   color: #ffffeb;
+}
+
+h4 {
+  text-transform: uppercase;
 }
