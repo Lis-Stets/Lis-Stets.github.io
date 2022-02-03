@@ -4,6 +4,7 @@ Body {
   font-family: Garamond, Georgia, serif;
   margin:5% 10% 10%;
 }
+
 .exp-vangogh{
   background-Image:url("https://cdn.wallpapersafari.com/90/27/Dzn3JZ.jpg");
   opacity: 97%;
@@ -31,9 +32,9 @@ Body {
   text-align: center;
   Padding-left:20px;
   Padding-right:20px;
-  background-color: #91bb81;
-  border-Left: 2.5px solid hsl(116, 31%, 48%);
-  border-Right: 2.5px solid hsl(116, 31%, 48%);
+  background-color: rgba(177, 217, 209, .91);
+  border-Left: 4.5px solid rgba(.8,.8,.8,.75);
+  border-Right: 4.5px solid rgba(.8,.8,.8,.75);
 }
 
 .exp-quote {
