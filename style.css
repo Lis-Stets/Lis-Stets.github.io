@@ -20,6 +20,8 @@ Body {
 
 .exp-name {
   text-align: Left;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   border-top: 4.5px solid rgba(.8,.8,.8,.75);
   border-bottom: 4.5px solid rgba(.8,.8,.8,.75);
   border-Left: 4.5px solid rgba(.8,.8,.8,.75);
@@ -28,6 +30,9 @@ Body {
   color: #fffffe;
 }
 
+.exp-contact {
+  text-align: Right
+}
 .exp-summary {
   text-align: center;
   Padding-left:20px;
@@ -52,12 +57,19 @@ Body {
   color: #fffffe;
 }
 
+.exp-education{
+  border-bottom-left-radius: 25px;
+  Border-bottom-right-radius:25px;
+}
+
 div {
   Padding-top:5px;
   Padding-bottom:5px;
   Padding-left:20px;
   Padding-right:20px;
   background-color: rgba(177, 217, 209, .91);
+  
+  border-top: 3px solid rgba(.8,.8,.8,.75);
   border-bottom: 3px solid rgba(.8,.8,.8,.75);
   border-Left: 4.5px solid rgba(.8,.8,.8,.75);
   border-Right: 4.5px solid rgba(.8,.8,.8,.75);
